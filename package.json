@@ -1,9 +1,12 @@
 {
+  "homepage":"https://keerthikachikki-ux.github.com.io/CounterApp",
   "name": "counter1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
